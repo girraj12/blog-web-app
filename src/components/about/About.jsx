@@ -1,6 +1,6 @@
 
 import { Box, styled, Typography, Link } from '@mui/material';
-import { GitHub, Instagram, Email } from '@mui/icons-material';
+import { GitHub, LinkedInIcon, Email } from '@mui/icons-material';
 
 const Banner = styled(Box)`
     background-image: url(https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg);
@@ -38,12 +38,12 @@ const About = () => {
                 <Text variant="h5">
                     Need something built or simply want to have chat? Reach out to me on
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                            <Instagram />
+                        <Link href="https://www.linkedin.com/in/girraj-singhal-96872b237/" color="inherit" target="_blank">
+                            <LinkedInIcon />
                         </Link>
                     </Box>  
                         or send me an Email 
-                        <Link href="mailto:girrajsinghal@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                        <Link href="mailto:girrajsinghal12@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
                             <Email />
                         </Link>.
                 </Text>
